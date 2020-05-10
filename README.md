@@ -6,3 +6,16 @@ Linkedin profile: https://www.linkedin.com/in/amr-hafez-734251184/
 
 -----------------------------
 
+Python
+
+Cryptography
+
+Databases
+
+OOP
+
+Algorithms 
+
+HTML
+
+Java
