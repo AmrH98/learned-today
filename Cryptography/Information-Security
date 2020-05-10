@@ -1,0 +1,159 @@
+Information Security - University of London 
+NOTES:
+
+Subject
+Week 1 :
+ 	Notes:
+https://upload.wikimedia.org/wikipedia/commons/d/da/A_Reference_Model_of_Information_Assurance_and_Security_%28RMIAS%29.png
+https://en.wikipedia.org/wiki/Information_security
+CIA/RMIAS model
+Important Concepts:
+
+	The Knowledge Areas identified at the time of creating this lesson cover the following nine areas:
+
+Cyber Defence, which includes aspects such as cryptography, data security, computer security, network security, information assurance. We cover a short introduction to some of these in this course. This area is based on computing, networks and protocols and mathematics as well as aspects of management as part of information assurance.
+
+2. Cyber Operations, this covers aspects such as cyber attack, penetration testing, cyber intelligence, reverse engineering of malware, cryptanalysis and so on. Again this is based on computing, networks and protocols and mathematics. Here we also consider adversarial aspects – how are we attacked, what attacks are being perpetrated and how good are our systems. In penetration testing we play the adversary to test our systems, our processes and our personnel as part of our organisations readiness to face attacks and to determine our vulnerabilities. In penetration testing we also consider physical security and can use social engineering to test the organisation. In cryptanalysis we break encryption systems – either to test how effective our systems are or for intelligence and law enforcement purposes.
+
+3. Digital Forensics, which includes the investigation and gathering of data from hardware and software on hosts and servers, mobile devices right down to network devices and embedded systems such as CCTV. Here we also see incident response, cybercrime, and cyber law enforcement in the curriculum. Our focus has become interdisciplinary as we add aspects of the law, evidence gathering and processes to respond to attacks and data breaches to our knowledge and skills.
+
+4. Cyber Physical Systems, such as Supervisory Control and Data Acquisition (SCADA) systems, the internet-of-things (IOT), industrial control systems. Here we move out of the office environment into the factory, the production line, the supply chain, smart cities, smart transportation systems, smart homes. These are typically not based on standard desktop and server computers, instead the systems are usually termed embedded systems and cyber-physical systems as they interface computers with sensors and actuators. Again this is based on computing, networks and protocols as well as some exposure to electronic engineering.
+
+5. Secure Software Development, which includes secure systems design, secure coding, deployment, maintainability, usability of secure system. We of course wish that all software was secure and usable but a lot of software is not written using “security by design”. This area is largely around computing, software engineering and includes aspects such as building reliable and available software. There is also a human factor as well – how do we design systems for the users of our secure systems (human computer interactions).
+
+6. Cyber ethics, the ethical use of information systems including the concept of privacy and anonymity, intellectual property rights, etc. We as professionals have a responsibility around the societal impact of information systems and in their security. Here we apply many of the previous knowledge areas and consider the human factors, laws, regulations, directives etc.
+
+7. Cyber Policy, Governance, and Law, such as government and institutional policies and practices, the roles in organisations, responsibilities and requirement on senior management to the business, the law and regulations. There are a range of regulations that apply for cyber systems and operations, and of course cyber laws such as the data protection act, computer misuse act and so on. There is a technical focus, we need to consider aspects of technology but many aspects are around management and legal/regulatory.
+
+8. Cyber Risk Management, which includes cyber resilience and assurance, for example how do we recover from disasters (disaster recover), what business continuity measures are required for our business, security evaluation (for example compliance issues) and cyber economics. Here we need a technology background but much of the coverage includes, management, processes, people and risk assessment and economic factors.
+
+9. Human Behaviour Relating to Cyber Systems and Operations, such as social engineering, use of social networks, the user experience, and organizational behaviour
+
+Week 2:
+Core security services
+Cryptographic mechanisms
+Encryption Algorithms and keys
+Cryptosystem
+ The short article Will superfast `quantum' computers mean the end of unbreakable encryption? https://theconversation.com/will-superfast-quantum-computers-mean-the-end-of-unbreakable-encryption-64402
+SSL/TLS Web browser and web server encryption
+Week 3:
+
+Information
+As users every time we connect to a network we are sending and receiving many kinds of different data. The following list gives you a very small subset of the kind of information that is transmitted through a network:
+Usernames and passwords (referred to as credentials): Social networks, email services, banking websites and other pages that have user accounts will require us to send our username and password before accessing our personal account on the service.
+Documents: Documents received and attached to emails, photos uploaded to social networks and other multimedia material is constantly sent and received through the network.
+Textual information: Chat messages, web pages and other textual information are also sent and received through the network in many forms.
+From a business perspective this information is classified in different categories according its sensitivity. Depending on this classification, different controls will apply when storing, using or transmitting the information through a network. For instance, a customer list and a marketing brochure will not require the same security controls to be applied. A customer list can hold sensitive data belonging to customers while the marketing brochure could be available publicly without any security implications.
+Networks
+A computer network enables computer systems, and their applications, to exchange information. Computer networks can be grouped in two categories depending whether the connection is established through a physical cable or not.
+Wired networks refer to those networks where nodes are connected using a physical link (cable). There are many different wired network technologies. Most desktop computers can connect to wired networks using an Ethernet connection. Ethernet connections are governed by the IEEE 802.3 standard. An Ethernet cable consists of 4 pairs of copper cable and can be used to transmit voice or data as frames containing protocol information and data. Desktop workstations are generally connected to their organization network using an Ethernet connection. This kind of network is also called Local Area Networks (LAN). In order to eavesdrop an Ethernet connection, the attacker requires physical access to the Ethernet cable or the devices that are connected to the device (routers and Ethernet switches).
+In a wireless (or non-wired) network, the nodes connect to each other by transmitting radio waves through the air. Most well-known wireless technologies are Bluetooth, WiFi, and the various cell phone networks.
+Bluetooth networks uses UHF radio waves from 2.4 to 2.485 Ghz to connect devices from just a few meters away up to 100 meters away depending on the version used. The Bluetooth standard is developed by the Bluetooth Special Interest Group (SIG) at the IEEE (Institute of Electrical and Electronic Engineers). Bluetooth and similar range networks are considered Personal Area Networks (PAN) or Personal Wireless Area Networks (PWAN).
+WiFi networks are specified by the IEEE 802.11 standard and operate in the 2.4GHz or 5GHz spectrum. This standard has evolved like Bluetooth, improving its range and maximum data rate over the years so that the latest standards potentially provide Gbps performance and can have a range of 100's or in some cases 1000's of meters. WiFi networks are considered within the category of Wireless LAN (WLAN) networks. They are generally present in households, public spaces and organizations to provide network and internet access to mobile devices (laptops, smartphones, etc.).
+Cellular networks are a kind of Wide Area Network (WAN) that splits the geographical space into cells. Inside each cell, at least one base station provides wireless connectivity to the nodes (cell phones and other devices) using standards based protocols typically referred to as 3G and 4G services. Base stations in different cells are connected to each other through a backhaul network, being able to provide network access to wide geographic areas. A variety of standards are available and deployed worldwide and can provide voice, data and multimedia communications over a variety of data rates and distances.
+In a wireless network, the media where information is transmitted is open (the air). An attacker will only require specific hardware to receive transmissions over a certain frequency to be able to read the information being sent through that network to/from a mobile device. The designers of wireless networks therefore typically use cryptographic techniques to provide some level of confidentiality.
+
+Computer Security
+Kinds of data
+Authentication
+Authorisation
+Access control
+System Vulnerabilities
+System security tools
+3. Memory Protection
+
+Week 4:
+
+The ISO27000 Family
+ https://www.jstor.org/stable/j.ctt5hh3wf.7
+Security Policy
+Security Controls
+Risk management 
+Risk Assessment
+7.      Risk Components
+In order to perform a risk assessment, information security professionals have to estimate the following variables, which depend on the given system under protection and the needs of the organisation. The following definitions are taken from ISO 27002:
+Asset is anything that has value to an organisation, its business operations and its continuity.
+Threat is a potential cause of an incident that may result in harm to a system or organisation.
+Vulnerability is a weakness of an asset or group of assets that can be exploited by one or more threats.
+Risk is the potential that a given threat will exploit vulnerabilities of an asset or groups of assets and thereby cause harm to the organisation.
+Impact is the result of an information security incident, caused by a threat, which affects assets.
+Each potential information security threat i is assumed to have a corresponding probability of manifestation, ti. For each threat, the information system or organisation under protection has an associated probability of breach (vulnerability), vi. These two factors combined describe the likelihood or probability, pi, that a vulnerability is exploited allowing a threat to be realised:
+pi = ti * vi
+The estimated impact (i.e. the outcome or loss) that the organisation suffers when a breach is materialised, is symbolised with xi, for various outcomes; this is related to the value of the asset under protection. One approach is to assume that the total value of the asset will be lost in the event that a threat materialises. Then, we can combine likelihood and impact to obtain risk in the following way:
+Risk =pi * xi= ti * vi * xi.
+Threats are outside the control of the decision-maker (security professional). Thus, their probabilities cannot be altered. By contrast, vulnerabilities are internal, meaning that their associated probabilities can be reduced by security investment decisions. In some cases, information security professionals do not target vulnerability probabilities vi with their investment decisions, but instead aim to contain the potential impacts xi.
+As we described during the video, risk assessment can be either quantitative or qualitative. In case the aforementioned values can be estimated, we have a quantitative approach.
+A useful tool for qualitative assessment is the so called ‘risk matrix’ which maps likelihood of a threat materialising against the expected business impact related to a particular threat. In our example, risk is measured on a scale of 0 to 8. Such an estimation can be further evaluated against the risk appetite of the organisation. A simple risk rating could be also used for categorising the resulting risk, for example, Low risk: 0 to 2, Medium Risk: 3 to 5, High Risk: 6 to 8.
+
+8. Legal Frameworks
+	Wassenaar Arrangement (1996, 41 countries)
+The purpose of the international Wassenaar Arrangement on Export Controls for Conventional Arms and Dual-Use Goods and Technologies is to ‘..contribute to regional and international security and stability, by promoting transparency and greater responsibility in transfers of conventional arms and dual-use goods and technologies, thus preventing destabilising accumulations. Participating States seek, through their national policies, to ensure that transfers of these items do not contribute to the development or enhancement of military capabilities which undermine these goals, and are not diverted to support such capabilities. The aim is also to prevent the acquisition of these items by terrorists’ (source: http://www.wassenaar.org/ about-us/). The agreement specifically refers to civil uses and export controls of cryptography.
+More information can be found at http://www.wassenaar.org/
+Computer Misuse Act (1990, UK)
+The Computer Misuse Act, is the primary law in the United Kingdom dealing with computer misuse. The sections of the Act with the most interest for information security are: Section 1 ‘unauthorized access to computer material’ according to which, ‘A person is guilty of an offence if—
+he causes a computer to perform any function with intent to secure access to any program or data held in any computer, or to enable any such access to be secured;
+the access he intends to secure, or to enable to be secured, is unauthorised; and
+he knows at the time when he causes the computer to perform the function that that is the case.
+The intent a person has to have to commit an offence under this section need not be directed at—
+any particular program or data;
+a program or data of any particular kind; or
+a program or data held in any particular computer.’
+Section 2 refers to ‘unauthorised access with intent to commit or facilitate commission of further offences’. Section 3 describes the conditions to be met for a person be guilty of the offence of ‘unauthorised modification of computer material’. Finally, Section 17, refers to the interpretation of the Act. An important point is that the term ‘computer’ has been deliberately left undefined, as such a definition would require regular updating in order to keep up with technological advancements. Such flexibility allows courts to consider tablets, mobile phones, even car systems and other devices with processing capabilities as target systems.
+You can find the full act at http://www.legislation.gov.uk/ukpga/1990/18/contents
+Data Protection Act (1998, UK)
+This act deals with the ‘regulation of the processing of information relating to individuals, including the obtaining, holding, use or disclosure of such information’. For the purposes of this course, Section 55 is interesting as it refers to the ‘unlawful obtaining of personal data’. The Data Protection Act will be override by the General Data Protection Regulation (GDPR), described later in this document.
+You can access the full act at http://www.legislation.gov.uk/ukpga/1998/29/contents
+Investigatory Powers Act (2016, UK)
+This act focuses on 'the interception of communications, equipment interference and the acquisition and retention of communications data, bulk personal datasets and other information'. The act became an official act on November 2016 and overrides the previous 'Regulation of Investigatory Powers Act'.
+You can access the full act at http://www.legislation.gov.uk/ukpga/2016/25/introduction/enacted
+Foreign Intelligence Surveillance Act (1978, USA)
+This act describes the conditions and processes required for the authorisation of electronic surveillance in order to obtain foreign intelligence information.
+You can access the full act at https://www.gpo.gov/fdsys/pkg/STATUTE-92/pdf/STATUTE-92-Pg1783.pdf
+Health Insurance Portability and Accountability Act (1996, USA)
+This act, also known as HIPAA, aims at ensuring data privacy and security provisions for safeguarding medical information.
+You can access the full act at https://www.gpo.gov/fdsys/pkg/PLAW-104publ191/html/PLAW-104publ191.htm
+California Senate Bill No. 1386 (2002, CA USA)
+This is one of the first laws which aimed at regulating the privacy of personal information. The part of the bill that relates to security breach notification in particular, has been very useful for the analysis and research on information security breaches.
+You can access the bill at http://www.leginfo.ca.gov/pub/01-02/bill/sen/sb_1351-1400/sb_1386_bill_20020926_chaptered.pdf
+General Data Protection Regulation (2016, EU)
+The General Data Protection Regulation, or GDPR, is considered as one of the most important new security initiatives. It is set to replace the Data Protection Directive 95/46/EC and will take effect on May, 2018. The purpose of the regulation is the protection of persons in relation to the processing of their personal data. In particular, the regulations aims at:
+Strengthening civilians’ rights,
+Adapting data protection to technological advancements and
+Benefiting businesses, the market and international cooperation.
+One of the most debated points of the regulation refers to breach notification requirements:
+‘..as soon as the controller becomes aware that a personal data breach has occurred, the controller should notify the personal data breach to the supervisory authority without undue delay and, where feasible, not later than 72 hours after having become aware of it, unless the controller is able to demonstrate, in accordance with the accountability principle, that the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons.’
+You can find more information at http://ec.europa.eu/justice/data-protection/reform/index_en.htm
+
+9.  	Incident Management 
+
+Week 5:
+
+Building information security industry model
+2. Lets consider some of the terminology mentioned in the presentation and one or two of the concepts.
+Producers - any company/business that creates, manufactures, sells, installs, maintains or runs security products or services. The next video in this lesson expands on the producer.
+Consumer - a company that consumes (purchases, instals, uses) products to secure their business. The set of products will depend on the business requirements and on external factors such as laws, regulations, directives, standards, best practices, etc. with which they need to comply or choose to implement.
+At around the 50th second I mentioned that consumers need a "security solution". What do I mean by that?
+Based on their business needs a consumer will need to invest in people, processes and equipment (hardware and software) and services in order to protect their assets.
+There may be different elements to security within one company, for example the UK company Marks & Spencers Ltd provide retail outlets of various types, plus online sales of their product lines. They also offer a banking service and insurance services. They therefore have a variety of security needs and security solutions in one part of the business may not be the same as in another, for example to meet regulations in different market segments.
+At around 1 minute 30 seconds I mention the term "verticals" in the context of Consumers. What does this mean?
+Vertical is used to denote a set of similar types of business, for example it might refer to retail, or banking, or government, or critical infrastructure etc. By grouping businesses by "verticals" we can analyse the needs of the vertical and produce generic products, e.g. to protect online retail, or for the banking industry, or to protect national critical infrastructure.
+Verticals can also be used to denote sets of producers, such as anti-virus vendors, network security vendors and so on. We can categorise producers by the products and services they deliver.
+During the period 1 minute 10 seconds to 1 minute 25 seconds I mention that the producers can also be considered consumers. We draw an arrow from producers to themselves. Lets expand on this a little.
+The consumer and the producer are companies, they generally employ staff, maintain some sort of premises, have an IT infrastructure, some web presence etc. They typically have a set of relationships - with their customers, with their suppliers and with other sectors so have business to business and business to consumer relationships. Such a vendor, say IBM as an example, has a set of products developed by engineers, scientists, and other specialists, sold by sales people, pre sales consultants, marketing departments legal and finance teams etc. they provide a wide variety of professional services that rely on consultants, engineers, etc. They need ICT and security specialists to support all aspects of their business and so have a need for all the security skills and roles found within the consumer sector as well as all the staff required to produce and deliver products and services - the security engineers (hardware and software), security services consultants and engineers, pre-sales technical support, etc. etc. etc. Some of these may be outsourced or provided by third party providers.
+Producers will typically have a variety of suppliers - whether its raw materials, chips or systems, software, operating systems, complete products through to services that they themselves consume. Effectively behind the bubble of the producer is a web of interactions - a potentially huge supply chain that ends up as the products and services that the consumers purchase and use.
+At around 1 min 45 seconds I introduce the Enforcer. Largely this can be taken from the Producer community, although the Enforcers can provide services as well so some may have some characteristics of producers.
+The Enforcer community helps to regulate and support the overall network of producers and consumers. There are specific security related entities as well as other entities that have a cyber/information security function within them. Consider the Information Commissioners Office (ICO) in the UK - primarily concerned that companies meet the requirements of the Data Protection Act and the new EU GDPR (General Data protection Regulation from the European Union). They work with all sectors of to ensure that companies comply, they investigate breaches and prosecute.
+The police in the UK on the other hand have some cyber/information security units, however they have a much wider role.
+At around 2 minutes and 30 seconds I mention the "interactions" between the components of the model. lets briefly consider some of these at this point, there will be some additional comments in later videos and readings.
+"Interactions" take place at a variety of points. Between enforcers and consumers and producers, consumers and producers, producers and producers and consumers and consumers.....
+Some examples:
+The banking industry works together on cyber security and threats
+Security vendors have data gathering networks where information from customers is collected and used to enhance their product to meet emerging threats/attacks,
+In the UK the CERT-UK (Computer Emergency Response Team) have the CISP (Cyber security Information Sharing Partnership) where companies can share security information in a trusted network.
+The Information Commissioners office communicates with companies, maintains knowledge of the industry, undertakes inspections, investigates breaches and prosecutes, so it has many interactions.
+All these aspects can make the model quite complex, so we abstract at a high level to maintain a relatively simple overview. We expand on each a little in the next set of video lessons and short readings.
+
+3. 
+
+
+
