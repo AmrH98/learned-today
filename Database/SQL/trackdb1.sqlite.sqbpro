@@ -2,4 +2,4 @@
     FROM Track JOIN Genre JOIN Album JOIN Artist 
     ON Track.genre_id = Genre.ID and Track.album_id = Album.id 
         AND Album.artist_id = Artist.id
-    ORDER BY Artist.name LIMIT 3</sql><current_tab id="0"/></tab_sql></sqlb_project>
+    ORDER BY Artist.name Album.name LIMIT 3</sql><current_tab id="0"/></tab_sql></sqlb_project>
