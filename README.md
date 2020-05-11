@@ -14,7 +14,7 @@ Database
 
 OOP
 
-Algorithms 
+Algorithms & Data Structures 
 
 HTML
 
