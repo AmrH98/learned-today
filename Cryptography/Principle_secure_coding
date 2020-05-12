@@ -1,0 +1,32 @@
+Principles of Secure Coding
+
+Week 1:
+
+Philosophy of secure programming : https://bournetocode.com/projects/GCSE_Computing_Fundamentals/pages/3-2-8-rob_prog.html
+Buffer Overflow : https://owasp.org/www-community/vulnerabilities/Buffer_Overflow
+OpenSSL issue / TSL : Buffer Underflow / Heartbleed
+Developing Secure Software: Agile, Waterfall, Rapid Prototyping
+RSAREF2 library buffer overflow
+Refactor code, use external libraries, modules
+Change Privilege : Setuid, Setgid
+Atomicity of some functions
+Checking design and implementation 
+Race conditions
+Changing privileges 
+Form of input
+Improper use of library functions
+Dependencies on other programs
+Where to look for Vulnerabilities 
+Anything with privileges or rights are changed
+Shared resources
+Weak authentication
+Root or daemon 
+Land attack 3-way handshake
+
+
+https://books.google.com.eg/books?id=CJV4CgAAQBAJ&pg=PA28&lpg=PA28&dq=A+program+needs+to+obtain+a+set+of+web+pages+over+the+network,+as+well+as+perform+other+network+functions%5C&source=bl&ots=DWmn4mfDP_&sig=ACfU3U1kTFhGB3ewc_HAflzHG6Kldoy-2Q&hl=en&sa=X&ved=2ahUKEwiPt_jx9azpAhUBqxoKHVSLDUsQ6AEwAHoECAgQAQ#v=onepage&q=A%20program%20needs%20to%20obtain%20a%20set%20of%20web%20pages%20over%20the%20network%2C%20as%20well%20as%20perform%20other%20network%20functions%5C&f=false
+https://bus206.pressbooks.com/chapter/chapter-5-networking-and-communication/
+
+Week 2:
+
+
