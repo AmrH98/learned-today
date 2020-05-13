@@ -1,7 +1,6 @@
 Principles of Secure Coding
 
 Week 1:
-
 Philosophy of secure programming : https://bournetocode.com/projects/GCSE_Computing_Fundamentals/pages/3-2-8-rob_prog.html
 Buffer Overflow : https://owasp.org/www-community/vulnerabilities/Buffer_Overflow
 OpenSSL issue / TSL : Buffer Underflow / Heartbleed
@@ -11,22 +10,71 @@ Refactor code, use external libraries, modules
 Change Privilege : Setuid, Setgid
 Atomicity of some functions
 Checking design and implementation 
-Race conditions
-Changing privileges 
-Form of input
-Improper use of library functions
-Dependencies on other programs
+  Race conditions
+  Changing privileges 
+  Form of input
+  Improper use of library functions
+  Dependencies on other programs
 Where to look for Vulnerabilities 
-Anything with privileges or rights are changed
-Shared resources
-Weak authentication
-Root or daemon 
-Land attack 3-way handshake
+  Anything with privileges or rights are changed
+  Shared resources
+  Weak authentication
+  Root or daemon 
+  Land attack 3-way handshake
 
+
+Assumptions:
+	Assumptions are common element of any programming project and can usually be understood to be a set of constraints that narrow the scope of the project both technically and functionally. A good requirements analysis will result in a functional specification that outlines what the program/solution should do, who will use it and why. In that sense a functional spec can be seen as a collection of assumptions that have been validated with business. This is why some programmers consider assumptions to be a bad thing as they might not have been checked with the prospective users of the system, leading to a dangerous misalignment on scope and functionality.
+To illustrate what assumptions programmers can make, here are a few examples:
+"The system will never be used by multiple users at once." This avoids the need for concurrency support, this is a dangerous assumption these days since it's hardly ever true.
+"We expect 1000 requests a day for the first year, ramping up to 5000 within 3 years." This can determine technical resources and the level of optimisation required.
+"The discombobulator won't ever be confabulated." Statements like these simplify the responsibilities of the program and specify the behaviour. A less abstract example would be "A customer can't ever have more than one account."
+"The system needs to run on a Linux environment."
+The reason these can be dangerous is when they're not checked with the users first. If you build your entire solution without supporting multiple-user access and it then turns out that Bob from accounting also needs to approve Sales Orders while Alice is busy adjusting them you get to redesign your system.
+Now, when it comes to programming tests like the ones you describe, assumptions have a more important role: they reduce the example scenario to something that has a workable solution and a scope that's limited enough to be developed by one person in a few hours. The goal of such an exercise is not to deliver a working solution but to show that you can correctly analyse the requirements of the system, identify pitfalls and account for possible issues. All those will be listed in your assumptions. Explaining them correctly shows that you can look past the basics in the use case description, analyse a complex system and reduce it to its core features. These are all vital skills for a good programmer. 
+by: 
+Lilienthal
 
 https://books.google.com.eg/books?id=CJV4CgAAQBAJ&pg=PA28&lpg=PA28&dq=A+program+needs+to+obtain+a+set+of+web+pages+over+the+network,+as+well+as+perform+other+network+functions%5C&source=bl&ots=DWmn4mfDP_&sig=ACfU3U1kTFhGB3ewc_HAflzHG6Kldoy-2Q&hl=en&sa=X&ved=2ahUKEwiPt_jx9azpAhUBqxoKHVSLDUsQ6AEwAHoECAgQAQ#v=onepage&q=A%20program%20needs%20to%20obtain%20a%20set%20of%20web%20pages%20over%20the%20network%2C%20as%20well%20as%20perform%20other%20network%20functions%5C&f=false
 https://bus206.pressbooks.com/chapter/chapter-5-networking-and-communication/
+https://web.cs.ucdavis.edu/~liu/ECS15/S11/Notes/Internet_practice.pdf
 
 Week 2:
-
-
+Design Principles 
+  Functionality should be split between users
+  Simplicity
+  Restriction
+Least Privilege
+  POLA ( Least Authority)
+  FreeBSD
+Fail-safe defaults
+  Reject unwanted unselected designed charactars
+Economy of mechanism
+  Kiss principle
+  Interface and Interactions
+  Using complexe interfaces violation
+Principle of complete meditation
+  Check every access 
+Separation of privilege principle
+  Multiple conditions for privilege 
+  Separation of duty 
+  Defense in depth 
+Principle of open design
+  Security through Obscurity
+  Security doesn’t depend on secrecy or design implementation 
+Principle of least common mechanism 
+  Mechanism should not be shared
+  Covert channels
+  Isolation
+  Virtual Machines
+  Sandboxes
+  Distributed denial of service attack
+Principle of least Astonishment 
+  Hide complexity that security mechanism introduce
+  Ease of installation, configuration, use
+  Human factor critical
+  Psychological acceptability *Extra*
+Week 3:
+	
+	
+			
