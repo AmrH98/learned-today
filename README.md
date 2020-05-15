@@ -7,18 +7,19 @@ Linkedin profile: https://www.linkedin.com/in/amr-hafez-734251184/
 -----------------------------
 
 Python
-
+--
 Cryptography
-
+--
 Database
-
+--
 OOP
-
+--
 Algorithms & Data Structures 
-
+--
 HTML
-
+--
 Java
-
+--
 Web Data
-------------------------
+--
+-------------------
