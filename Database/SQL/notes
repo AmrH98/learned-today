@@ -1,0 +1,31 @@
+Python OOP/SQL tim
+
+Data Structure
+  Notes:
+    Dictionaries
+    Counting with dictionary 
+    Dictionaries and files 
+    
+    Tuples
+      Reverse key and value
+      Comparison operators
+      Sorting lists of tuples
+
+
+
+
+
+
+
+
+
+
+-SQL
+  Notes:
+    Querying Data with Sqlite
+    Order by and Joins
+    Wildcards and Views *reuse join revise*
+    SQL with python
+    Connections, Cursors and Transactions
+    SQL Injections attack
+
