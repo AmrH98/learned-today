@@ -4,7 +4,7 @@ class Song:
         self.duration = duration
         self.artist = artist
 """docstrings and raw literals"""
-# Check classes diversity functions from SongTim file
+
 class Album:
 
     def __init__(self,name,year,artist= None):
