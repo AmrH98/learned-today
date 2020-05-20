@@ -64,7 +64,31 @@ Week 3:
 	Parsing web pages
 		Web scraping. Spidering/crawling web
 		Using beautifulsoup lib - https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-
+Week 4:
+	Wire format
+	Java HashMap
+	De-Serialize
+		Json
+		XML - eXtensible Markup Language
+			Share structure data
+			Text and attributes
+			Paths
+			Schema
+			Legal format of XML document
+		XML Validation
+			Schema contract and document
+			Schema Languages
+				DTD
+				SGML
+				XSD 
+		Element Tree
+	Week 5:
+		JavaScript Object Notation JSON
+		JSON represents data as nested lists and dictionaries 
+		Service oriented approach 
+		Service oriented architecture 
+		Using application programming interface API
+		Securing API requests
 
 	
 	
