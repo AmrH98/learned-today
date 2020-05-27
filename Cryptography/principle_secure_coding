@@ -75,6 +75,54 @@ Principle of least Astonishment
   Human factor critical
   Psychological acceptability *Extra*
 Week 3:
-	
+	Fragile and robust coding styles
+	Robust programming basic principles 
+	Queue management routine
+		Order of parameters easy to confuse
+		Parameters values have arbitrary meanings
+		No check for an attempt to delete a deleted or non existent queue 
+		Overflow
+		Underflow
+		Incorrect variable values
+		Not checked
+	Queue Structure
+		Token to index into array of queue 
+		Prevent dangling reference
+			Include in each token a nonce
+			Index and nonce stays active
+			https://www.ibm.com/support/knowledgecenter/SS7K4U_9.0.5/com.ibm.websphere.zseries.doc/ae/cwbs_noncev6.html
+			Construct token to not be valid
+			DON’T RETURN POINTER TO INTERNAL STRUCTURE, use tokens
+	Error Handling
+		Convention
+			Associate error message saved externally in an visible buffer
+			Example using snprintf() not guarded against string attack, its only called within library ( not for all cases )
+			Example using strcpy instead of strncpy might overflow the pr
+	Cohesion
+	New interfaces
+	Token generation
+		Make interface simple even for internal use only
+		Check everything even internal generated parameters
+		Give useful error messages and describe the error precisely 
+	Token interpretation 
+		Make parameters quantity that can be checked for validity 
+		Check for references of outdated data
+		Creating Queue 
+		Deleting queue
+		Adding and Removing elements in queue 
+Week 4:
+	Methods for robustness
+		Formal
+			Logically Verifiable methods
+			Specification 
+			Goals using mathematics or logical language
+				Axioms
+				Design
+				Implementation 
+	Informal
+		Allow strong, rigorously reasoned argument for correctness
+	Ad Hoc methods
+	Think through design implement
+
 	
 			
