@@ -124,5 +124,46 @@ Week 4:
 	Ad Hoc methods
 	Think through design implement
 
-	
+	Login Program:
+		Log information to reconstruct any unauthorized logins
+			Validity 
+			Bogus
+			Environment assumption
+			
+	Incorporating Hierarchical Decomposition Methodology HDM
+		SRI for PSOS system designed as a capability bases-system
+		
+		HDM stages
+			Interface definition 
+			Decomposition 
+			Refine Layering
+				Break task into parts, parts into parts
+				One task your module, KISS principle
+				Know assumptions, inputs, outputs of each
+				Simplifies, checking and debugging 
+				
+	Login program:
+		User authenticator
+		Authenticator data
+		Check for match
+		Change UID, Group info
+			Get UID, primary GID, secondary GID
+			Update them
+			Update log files
+			strcpy, strncpy, gets, other differences in inputs
+			
+		Appropriate program
+			Non-security related elements
+			Security-relevant elements
+			Each module do exactly one security-related function
+			KISS principle 
+			Use tickets not tokens 
+			call/data dependency graphs simple and easy to follow
+			
+	Authenticating a user
+		Login preconditions 
+			!Over 1024 char string
+			!No value
+			!anynamed in no export list
+
 			
