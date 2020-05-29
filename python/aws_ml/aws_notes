@@ -146,6 +146,29 @@ Lesson 3:
 	Python Package
 		Virtual environment  
 
+	SciKit-learn source code
+		akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/
+		github.com/MarcDiethelm/contributing/blob/master/README.md
+		OOP object: /realpython.com/primer-on-python-decorators/
+		medium.com/m/global-identity?redirectUrl=https%3A%2F%2Feasyaspython.com%2Fmixins-for-fun-and-profit-cb9962760556
+	PyPi	
+		cd binomial_package_files
+		python setup.py sdist
+		pip install twine
+			# commands to upload to the pypi test repository
+			twine upload --repository-url https://test.pypi.org/		legacy/ dist/*
+			pip install --index-url https://test.pypi.org/simple/ 	dsnd-probability
+
+			# command to upload to the pypi repository
+			twine upload dist/*
+			pip install dsnd-probability
+
+		packaging.python.org/tutorials/packaging-projects/
+		https://docs.python.org/3/distutils/packageindex.html
+		https://opensource.org/licenses/MIT
+
+Lesson 4:
+	Machine learning on AWS
 	
 
 
