@@ -17,7 +17,7 @@ OOP
 --
 Algorithms & Data Structures 
 --
-HTML
+Web development
 --
 Java
 --
