@@ -1,0 +1,26 @@
+
+SML
+    Commands: cs.fit.edu/~ryan/sml/intro.html
+    ML variable bindings and expressions 
+        Static and dynamic environment ( Pre, Post )
+        Syntax, Type checking, Evaluation
+        
+    REPL and Errors
+    Shadowing
+        Binding
+        
+    Functions informally 
+    Functions formally
+    Pairs and other tuples
+        Nesting
+        
+    Lists
+        Accessing elements
+        
+    List Functions
+    Let Expressions
+        Let and efficiency
+        
+    Nested Functions
+    Options
+    Booleans and comparison operations
