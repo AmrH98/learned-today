@@ -1,0 +1,74 @@
+front-end
+
+    HTML references:
+        Cheatsheet: https://www.wpkube.com/html5-cheat-sheet/
+        https://www.w3schools.com/TAGS/default.ASP
+        https://www.w3schools.com/html/default.asp
+        Test website: https://validator.w3.org
+        Font: https://fontawesome.com/icons/file
+        
+    CSS references: 
+        CSS Zen Garden
+        caniuse.com for browser preferences 
+        
+    JavaScript
+    
+Notes :
+
+    Document object model DOM
+    Lists
+    Semantic Tags
+        Structural elements
+        Form elements
+        Input elements
+        Graphics elements
+        Media elements
+        
+    Images
+    Font / Awfont
+    Links
+        Absolute and relative
+        
+    Anchors targets
+    Multimedia
+        Audio video
+        Accessibility
+        Plugins
+        
+    Tables 
+    Web accessibility coordinator 
+    Validation
+        http://jkorpela.fi/html/validation.html
+        Wave
+        Funkify
+   CSS:
+        Stylesheet
+        Display and Visibility 
+        Overflow
+        Boxmodel
+        States
+        Advanced Selectors
+        Attribute Selectors : https://learn.shayhowe.com/advanced-html-css/complex-selectors/
+        Browser capabilities 
+        Prefixes
+        Designing for accessibility 
+        Robust for var
+        ‘h1’ in HTML5 : https://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824
+        Pseudo classes and elements
+        Transitions :
+             http://www.w3schools.com/css/css3_transitions.asp
+            http://learn.shayhowe.com/advanced-html-css/transitions-animations/
+            
+        Transforms
+            http://www.the-art-of-web.com/css/css-animation/
+            http://www.creativebloq.com/css3/animation-with-css3-712437
+            
+        Positioning 
+        Responsive design
+        
+JavaScript:
+
+        DOM review with OOP
+        Outputs
+        Code placement 
+
