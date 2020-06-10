@@ -12,7 +12,8 @@ front-end
         caniuse.com for browser preferences 
         
     JavaScript
-    
+        CheatSheet: http://www.cheat-sheets.org/saved-copy/jsquick.pdf
+        http://www.html5pattern.com
 Notes :
 
     Document object model DOM
@@ -79,4 +80,6 @@ JavaScript:
         Request response cycle
         Pattern 
         Server side processing 
+        Responsive images
+        Tables
 
