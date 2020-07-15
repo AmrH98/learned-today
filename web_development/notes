@@ -140,11 +140,28 @@ Tokyo University:
     Code Synchronicity  
     Event Loop
      SetTimeout
+    Express 
+    Creating Local servers
+        Server Setup
+        Server File Structure
+        
+    Routes and Get Requests 
+        GET - POST
+        https://expressjs.com/en/guide/routing.html
+        Routes - Post requests
+        Server and client side code
+        Property accessors : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors
+    Asynchronous JS
+        Async promises
+        Async fetch with web APIs demos
+        Chaining Promises
+        Dynamic UI updates
 
     React
     Yarn 
     JSX
     React Components
     React lifecycle methods
-
+    eslint.org
+    
 
